@@ -1,0 +1,53 @@
+.main-footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+button {
+  margin-right: 5px;
+}
+
+@media (min-width: 900px) {
+  .table-actions {
+    width: 1px;
+  }
+}
+
+@media (max-width: 321px) {
+  .table {
+    display: flex;
+    flex-direction: column;
+  }
+  .altera {
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+}
+
+.table-actions {
+  width: 50px;
+}
+
+.table-actions2 {
+  width: 150px;
+}
+
+.input-classe {
+  border-radius: 10px;
+}
+
+.label-classe {
+  font-weight: 500;
+  color: #154360;
+}
+
+.sair {
+  border-radius: 5px;
+}
+
+
+.div-nav {
+  border: 1px solid #FFF;
+  border-radius: 5px;
+}

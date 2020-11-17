@@ -1,0 +1,55 @@
+
+.erro-div {
+    align-items: center;
+}
+
+.erro-msg {
+    margin-left: 10%;
+    width: 80%;
+    /* font-size: 100%; */
+
+}
+
+.botao {
+    margin-top: 64px;
+    margin-left: 10%;
+
+	width: 80%;
+	height: 64px;
+	border: 0;
+	cursor: pointer;
+	background: #3c81dc;
+	border-radius: 10px;
+	color: #ffffff;
+	font-weight: 800;
+  
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  
+}
+
+.botao:hover {
+	transition: 0.5s;
+	background: #3c81dcb6;  
+}
+
+.link {
+    color: #ffffff;
+}
+
+.link:hover {
+	transition: 3s;
+    color: #ffffffde;
+}
+
+.user {
+    color: #3c94dc;
+	font-weight: 600;
+}
+
+.user:hover {
+    cursor: pointer;
+    color: #5bc3ff;
+    transition: 1s;
+}
