@@ -7,14 +7,18 @@
 
 ![](https://img.shields.io/badge/license-MIT-green)
 ![](https://img.shields.io/badge/languege-Portuguese-yellow)
-[![GitHub stars](https://img.shields.io/github/stars/Daniel-Vinicius/My-Money-Frontend?style=social)](https://github.com/Daniel-Vinicius/My-Money-Frontend/stargazers) 
+[![GitHub stars](https://img.shields.io/github/stars/Daniel-Vinicius/My-Money-Frontend?style=social)](https://github.com/Daniel-Vinicius/My-Money-Frontend/stargazers)
 
+
+[![Acessar](https://github.com/Daniel-Vinicius/My-Money-Frontend/blob/main/.github/acessar.png)](https://my-money-frontend.vercel.app/)
 
 ### Features 
 - [x] Redux
 - [x] Redux Form
 - [x] Login
 - [x] Hospedado
+- [x] Admin LTE
+- [x] Responsivo
 
 <h4  align="left">
 Projeto finalizado ✔
@@ -39,9 +43,9 @@ Tabela de conteúdos
 ### 🛒 Pré-requisitos<a id="pre-requisitos"></a>
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
- [Git](https://git-scm.com/),
- [Node.js](https://nodejs.org/pt-br/) e
- [React](https://reactjs.org/)
+* [Git](https://git-scm.com/)
+* [Node.js](https://nodejs.org/pt-br/)
+* [React](https://reactjs.org/)
  
  Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
  
@@ -49,10 +53,10 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
    
 ````bash 
  # Clone este repositório
- git clone https://github.com/Daniel-Vinicius/repositorio
+ git clone https://github.com/Daniel-Vinicius/My-Money-Frontend
  
  # Acesse a pasta do projeto no terminal
- cd pasta
+ cd My-Money-Frontend
  
  # Instale as dependências
  $ yarn install ou
@@ -62,10 +66,10 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
  $ npm start 
  $ yarn start
  
- # O servidor iniciará na porta:porta
- # Acesse http://localhost:porta
+ # O servidor iniciará na porta:3000
+ # Acesse http://localhost:3000
  ````
-<p> Quando você tiver realizado todos os passos do projeto verá a  <a href="#imagem" >imagem do projeto</a> </p>
+
 
 ### 🛠 Tecnologias<a id="tecnologias"></a>
  As seguintes ferramentas foram usadas na construção do projeto:
@@ -74,6 +78,9 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
   - [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
   - [React](https://reactjs.org/)
   - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+  - [Redux](https://redux.js.org/)
+  - [Bootstrap](https://getbootstrap.com.br/)
+  - [Admin LTE 2](https://adminlte.io/themes/AdminLTE/documentation/index.html)
 
 
 ### 👨‍💻Autor <a id="autor"> </a>
