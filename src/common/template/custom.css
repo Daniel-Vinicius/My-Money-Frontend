@@ -9,12 +9,34 @@ button {
 }
 
 @media (min-width: 900px) {
+  #botao-sai {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545
+  }
+  #botao-sai:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130
+}
   .table-actions {
     width: 1px;
   }
 }
 
 @media (max-width: 321px) {
+
+  #botao-sai {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545
+  }
+  #botao-sai:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130
+}
+
   .table {
     display: flex;
     flex-direction: column;
@@ -43,8 +65,6 @@ button {
 }
 
 .sair {
-  background-color: #d11e1ee0;
-  color: #FFFFFF;
   border-radius: 5px;
 }
 
@@ -56,4 +76,15 @@ button {
 
 .tabheaderr {
   cursor: pointer;
+}
+
+#botao-sai {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545
+}
+#botao-sai:hover {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130
 }

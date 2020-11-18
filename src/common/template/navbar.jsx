@@ -50,7 +50,7 @@ class Navbar extends Component {
               </li>
               <li className='user-footer div-nav'>
                 <div className='pull-right'>
-                  <a
+                  <a id='botao-sai'
                     onClick={this.props.logout}
                     className='btn btn-danger sair'
                   >
