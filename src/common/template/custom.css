@@ -51,3 +51,7 @@ button {
   border: 1px solid #FFF;
   border-radius: 5px;
 }
+
+.tabheaderr {
+  cursor: pointer;
+}

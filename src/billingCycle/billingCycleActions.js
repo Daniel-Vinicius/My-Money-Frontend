@@ -2,9 +2,9 @@ import axios from "axios";
 import { toastr } from "react-redux-toastr";
 import { initialize } from "redux-form";
 import { showTabs, selectTab } from "../common/tab/tabActions";
-import { API_URL } from '../const.js'
+import consts from '../consts.js'
 
-const BASE_URL = API_URL
+const BASE_URL = consts.API_URL
 const INITIAL_VALUES = {credits: [{}], debts: [{}]};
 
 export function getList() {

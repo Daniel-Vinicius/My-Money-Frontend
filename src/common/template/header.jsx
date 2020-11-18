@@ -13,7 +13,6 @@ export default props => (
       </span>
     </a>
     <nav className='navbar navbar-static-top'>
-      {/* eslint-disable-next-line*/}
       <a className='sidebar-toggle' data-toggle='offcanvas'></a>
       <Navbar />
     </nav>

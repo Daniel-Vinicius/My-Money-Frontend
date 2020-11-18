@@ -27,23 +27,19 @@ class Navbar extends Component {
             }`}
           >
             <a
-            // eslint-disable-next-line
               href='javascript:;'
               onClick={() => this.changeOpen()}
               aria-expanded={this.state.open ? "true" : "false"}
               className='dropdown-toggle'
-              // eslint-disable-next-line
               data-toggle='dropdown'
             >
               <img
                 src={imge}
                 className='user-image'
                 alt='User Image'
-                // eslint-disable-next-line
               />
               <span className='hidden-xs'>{name}</span>
             </a>
-            {/* // eslint-disable-next-line */}
             <ul className='dropdown-menu'>
               <li className='user-header'>
                 <img src={imge} className='img-circle' alt='User Image' />
